@@ -2,6 +2,10 @@
 Advent of Code 2024 
 
 
+run the code with the following command: 
+```bash
+python3 createProj.py
+```
 ## Day 1: 
 
 ## Day 2: 
@@ -21,4 +25,8 @@ In the second question:
 - std::find_if --> O(n)
 - std::all_of --> O(n)
 
-but this time, we have the nested loop to calculate subVector's safety, so the overall time complexity is **O(n^2)**
+but this time, we have the nested loop to calculate subVector's safety, so the overall time complexity is **O(n<sup>2</sup>)**
+
+Ideas to apply: 
+- create an async function to calculate the safety of the subVector and have a 
+thread pool to run while reading values from the input.txt. Something like Producer/Consumer. 
