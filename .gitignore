@@ -35,3 +35,7 @@
 .idea
 cmake-build-*
 .DS_Store
+
+
+# private
+cookie.txt
