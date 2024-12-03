@@ -2,7 +2,10 @@ import os
 import requests
 
 # Replace with your Advent of Code session cookie
-SESSION_COOKIE = "53616c7465645f5fe760441e17c5751180478d6b99add5c046cb0c3c87925e24f3e0fffe8dbcaaa41f6d786fb567b9c7327e5ab3fb71e59665adf10803d68913"
+
+file = open('cookie.txt', 'r')
+SESSION_COOKIE = file.readline().replace('\n', '')
+file.close()
 
 def create_day_folder(day_num):
     day_folder = f"Day{day_num:02}"
