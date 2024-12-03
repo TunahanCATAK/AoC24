@@ -3,4 +3,6 @@ project(Day03_SecondQuestion)
 
 set(CMAKE_CXX_STANDARD 23)
 
-add_executable(Day03_SecondQuestion main.cpp)
+include_directories(../../include)
+
+add_executable(Day03_SecondQuestion main.cpp )

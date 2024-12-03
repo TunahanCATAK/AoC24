@@ -30,3 +30,10 @@ but this time, we have the nested loop to calculate subVector's safety, so the o
 Ideas to apply: 
 - create an async function to calculate the safety of the subVector and have a 
 thread pool to run while reading values from the input.txt. Something like Producer/Consumer. 
+
+## Day 3:
+
+Created a _co-routine based lazy file reading_ utility function. 
+Which reads a file line by line and waits the caller to ask for the next line.
+Tried to implement a kind of generator function in C++.
+
