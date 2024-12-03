@@ -50,7 +50,8 @@ def update_root_cmake(day_num):
         content = ["cmake_minimum_required(VERSION 3.24)\n", "project(AdventOfCode2024)\n", "set(CMAKE_CXX_STANDARD 23)\n\n"]
 
     # Add subdirectories for the new day
-    new_entry = f"add_subdirectory(Day{day_num:02})\n"
+    new_entry = f"add_subdirectory(Day{day_num:02}/FirstQuestion)\n"
+    new_entry += f"add_subdirectory(Day{day_num:02}/SecondQuestion)\n"
     if new_entry not in content:
         content.append(new_entry)
 
