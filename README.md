@@ -37,3 +37,10 @@ Created a _co-routine based lazy file reading_ utility function.
 Which reads a file line by line and waits the caller to ask for the next line.
 Tried to implement a kind of generator function in C++.
 
+## Day 5: 
+Tried to solve the problem with recursive function, but it was not efficient. I got 
+a stack overflow error. So, I had to change the approach. 
+
+Then I decided to use std::is_sorted() function. Which provides us a special comparison function.
+But the time complexity of the solution became O(n<sup>2</sup>).
+O(n) for the is_sorted function and O(n) for the comparison function.
