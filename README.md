@@ -44,3 +44,9 @@ a stack overflow error. So, I had to change the approach.
 Then I decided to use std::is_sorted() function. Which provides us a special comparison function.
 But the time complexity of the solution became O(n<sup>2</sup>).
 O(n) for the is_sorted function and O(n) for the comparison function.
+
+## Day 6:
+I've solved the second problem with a brute force approach, with adding '#' to all possible positions and find out to loop with iterating through the maze. 
+There can be some nicer solutions with graphs, investigate it. 
+
+
