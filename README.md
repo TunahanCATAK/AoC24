@@ -50,3 +50,7 @@ I've solved the second problem with a brute force approach, with adding '#' to a
 There can be some nicer solutions with graphs, investigate it. 
 
 
+## Day 8: 
+Range based permutator function is implemented to generate all possible permutations of a given range.
+This still needs to be improved and tested. But I am going to move it to my utility library. 
+
